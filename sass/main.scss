@@ -46,9 +46,18 @@ body{
     #main-image{
             position: relative;
 
-            img{
+            .btn{
+                border:none;
+                outline: none;
                 border-radius: 10px;
+                background-color: transparent;
+
+                img{
+                    border-radius: 10px;
+                }
+                
             }
+           
 
         #view{
             position: absolute;
@@ -134,7 +143,7 @@ body{
 
 
     /*component footer section*/
-    footer{
+    .avatar{
         display: grid;
         grid-template-columns: 1fr 5fr;
         gap: 1rem;

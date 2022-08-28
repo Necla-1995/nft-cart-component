@@ -44,7 +44,13 @@ body {
 .container #main-image {
   position: relative;
 }
-.container #main-image img {
+.container #main-image .btn {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+.container #main-image .btn img {
   border-radius: 10px;
 }
 .container #main-image #view {
@@ -110,7 +116,7 @@ body {
   height: 90%;
   background-color: var(--Soft-blue);
 }
-.container footer {
+.container .avatar {
   display: grid;
   grid-template-columns: 1fr 5fr;
   gap: 1rem;
@@ -118,18 +124,18 @@ body {
   justify-content: center;
   margin-top: 1rem;
 }
-.container footer img {
+.container .avatar img {
   border: 2px solid var(--White);
   border-radius: 50%;
 }
-.container footer p {
+.container .avatar p {
   margin-bottom: 1rem;
 }
-.container footer p a {
+.container .avatar p a {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
 }
-.container footer p a:hover {
+.container .avatar p a:hover {
   color: var(--Cyan);
 }/*# sourceMappingURL=main.css.map */
